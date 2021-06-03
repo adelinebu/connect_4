@@ -1,0 +1,148 @@
+body {
+   background-image: url("assets/background.png"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+
+#initialisation,
+form {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form input,
+form select {
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 182, 193, 0.4);
+}
+
+#start {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#initialisation {
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 36px;
+}
+
+table {
+    border: solid 4px mediumpurple;
+    margin: 30px;
+    padding: 2px;
+}
+
+.col {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #fde9e0;
+    margin: 2px;
+    border: mediumpurple 1px solid;
+    
+}
+
+#page2 {
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+#score {
+    width: 200px;
+    height: 350px;
+    margin: 30px auto;
+    display: inline-block;
+    padding: 0;
+    border: double mediumpurple;
+    border-width: 10px;
+    
+}
+
+#score img {
+    display: block;
+    height: 30px;
+    width: auto;
+}
+
+#score button {
+    margin: 10px;
+}
+
+.turn,
+.player1,
+.player2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#start {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#start img {
+    display: block;
+    height: 100px;
+    width: auto;
+}
+
+#grid p {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: bolder;
+}
+
+.next-black {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.thistle {
+    background-color : #D8BFD8;
+}
+
+.periwinkle {
+    background-color: #C3CDE6;
+}
+
+.blizzard {
+    background-color: #9ADDED;
+}
+
+.pink {
+    background-color: #F4C2C2;
+}
+
+.morning {
+    background-color: #8DA399;
+}
+
+.coral {
+    background-color: #F08080;
+}
